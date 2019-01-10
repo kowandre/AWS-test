@@ -41,6 +41,11 @@ public class AppTest {
         }
     }
 
+    @Test
+    public void testFail() {
+        fail();
+    }
+
     @After
     public void cleanUpStreams() {
         System.setOut(null);
